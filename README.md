@@ -58,7 +58,7 @@ This project demonstrates application of the following MATLAB programming and so
 ### 📂 How to Run
 
 1. Clone or download the repository  
-2. Open the main `.m` file in MATLAB  
+2. Open the mainGame `.m` file in MATLAB 
 3. Run the file from the Command Window  
 4. Start guessing and have fun!
 
