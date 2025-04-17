@@ -1,0 +1,39 @@
+MAINGAME TESTING
+
+Test Case 1: Entering User Name
+% Test Case
+% Simulate entering a user name in the name input box
+
+% Expected Output
+% The welcome message should be displayed with the user's name appended, and the Play button should become visible.
+
+Test Case 2: Clicking Play Button
+% Test Case
+% Simulate clicking the Play button
+
+% Expected Output
+% The pop-up window should close, and the hangman game should start.
+
+
+Test Case 3: Canceling Name Input
+% Test Case
+% Simulate canceling the name input dialog
+
+% Expected Output
+% The game should not proceed further without entering a name.
+
+
+Test Case 4: Incorrect Name Input Handling
+% Test Case
+% Simulate entering an empty name or invalid characters in the name input box
+
+% Expected Output
+% The game should not proceed further and should prompt the user to enter a valid name.
+
+Test CAse 5: Typing Speed
+% Test Case
+% Manually set the typing speed to a different value for verification
+
+% Expected Output
+% The name prompt should display characters with the specified typing speed.
+

@@ -1,0 +1,45 @@
+Test Case 1: Easy Difficulty Level
+% Test Case
+% Choose the easy difficulty level.
+
+% Expected Output
+% The game should choose a word from the 'wordsSmall.txt' file and proceed with the game.
+
+
+Test Case 2: Difficult Difficulty Level 
+% Test Case
+% Choose the difficult difficulty level.
+
+% Expected Output
+% The game should choose a word from the 'wordsHuge.txt' file and proceed with the game.
+
+
+Test Case 3: Invalid difficulty level
+% Test Case
+% Simulate choosing an invalid or unexpected option in the difficulty level dialog.
+
+% Expected Output
+% The game should handle the unexpected choice gracefully and should not proceed further.
+
+Test Case 4: Incorrect Guesses
+% Test Case
+% Simulate incorrect guesses to test the behavior of the game.
+
+% Expected Output
+% The game should update the hangman drawing for each incorrect guess and display the correct number of lives remaining.
+
+
+Test Case 5: Winning the game
+% Test Case
+% Provide correct guesses to win the game.
+
+% Expected Output
+% The game should display a congratulatory message indicating that the player won and reveal the correct word.
+
+
+Test case 6: Losing the game
+% Test Case
+% Exhaust all incorrect guesses without guessing the word.
+
+% Expected Output
+% The game should display a message indicating that the player lost and reveal the correct word.

@@ -1,0 +1,51 @@
+STAGE 2: HANGMAN GAME INITIALISATION
+
+Test case 1: Choosing easy difficulty 
+% Test Case
+% Simulate choosing the easy difficulty level
+difficulty = 'easy';
+% Simulate reading words from the 'wordsSmall.txt' file
+
+% Expected Output
+% The game should select a random word from the 'wordsSmall.txt' file and initialize the necessary variables for the hangman game.
+
+
+Test case 2: Choosing difficult level of difficulty
+% Test Case
+% Simulate choosing the difficult difficulty level
+difficulty = 'difficult';
+% Simulate reading words from the 'wordsHuge.txt' file
+
+% Expected Output
+% The game should select a random word from the 'wordsHuge.txt' file and initialize the necessary variables for the hangman game.
+
+
+Test case 3: Incorrect choice handling
+% Test Case
+% Simulate canceling the dialog box or choosing an invalid option
+
+% Expected Output
+% The game should not proceed further without a valid difficulty choice.
+
+
+Test case 4: word selection
+% Test Case
+% Manually set the difficulty level to 'easy' for easy verification
+difficulty = 'easy';
+% Manually set the word list to ['MATLAB', 'PYTHON', 'JAVA'] for easy verification
+words = {'MATLAB', 'PYTHON', 'JAVA'};
+% Manually set the random word index to 2 for easy verification
+wordIndex = 2;
+
+% Expected Output
+% The game should select the word 'PYTHON' and initialize the necessary variables for the hangman game.
+
+
+Test case 5: Variables initialisation
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+
+% Expected Output
+% The game should initialize the guessedWord variable with underscores, set the incorrectGuesses count to 0, set the maximum allowed incorrect guesses to 7, and initialize an empty array for guessedLetters.
+

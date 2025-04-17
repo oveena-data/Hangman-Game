@@ -1,0 +1,76 @@
+STAGE 1: USER INTERFACE SETUP
+
+Test Case 1: Normal Flow
+% Test Case
+mainGameTesting();
+
+% Expected Output
+% A pop-up window should appear with a background image of Hangman. It should prompt the user to enter their name. After entering the name, a welcome message should appear with the name included. Finally, a "READY TO PLAY!" button should be visible.
+
+
+Test Case 2: Empty Name Input
+% Test Case
+mainGameTesting();
+% Simulate user input of an empty name
+set(findobj('Style', 'edit'), 'String', '');
+% Trigger the callback function by pressing Enter or clicking outside the input box
+
+% Expected Output
+% The pop-up window should remain with the name prompt visible. No welcome message should appear, and the "READY TO PLAY!" button should remain invisible.
+
+
+Test Case 3: Name Input with special characters
+% Test Case
+mainGameTesting();
+% Simulate user input of a name with special characters
+set(findobj('Style', 'edit'), 'String', 'John$Doe');
+% Trigger the callback function by pressing Enter or clicking outside the input box
+
+% Expected Output
+% The pop-up window should display a welcome message with "John$Doe" included. The "READY TO PLAY!" button should become visible.
+
+
+Test Case 4: Name input with Numbers
+% Test Case
+mainGameTesting();
+% Simulate user input of a name with numbers
+set(findobj('Style', 'edit'), 'String', 'Alice123');
+% Trigger the callback function by pressing Enter or clicking outside the input box
+
+% Expected Output
+% The pop-up window should display a welcome message with "Alice123" included. The "READY TO PLAY!" button should become visible.
+
+
+Test case 5: Clicking play Button without entering name
+
+% Test Case
+mainGameTesting();
+% Simulate clicking the Play button without entering a name
+
+% Expected Output
+% The pop-up window should remain with the name prompt visible. No welcome message should appear, and the "READY TO PLAY!" button should remain invisible.
+
+
+Test case 6: Closing the window without entering name
+% Test Case
+mainGameTesting();
+% Close the pop-up window without entering a name
+
+% Expected Output
+% The pop-up window should close without any further actions.
+
+Test Case 7: Typing Speed Check
+% Test Case
+mainGameTesting();
+
+% Expected Output
+% The name prompt should gradually appear with each character showing up at a typing speed of 10 characters per second.
+
+
+Test Case 8: Input Box appearance
+
+% Test Case
+mainGameTesting();
+
+% Expected Output
+% The input box should have a black background with white text. It should be bold and visible for user input.

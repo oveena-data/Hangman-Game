@@ -1,0 +1,45 @@
+1. Test Case: Valid Input ('easy' difficulty)
+
+   - Input: 'easy' (selected during prompt)
+   - Expected Output: The game should run successfully with words selected from the 'wordsSmall.txt' file. The user should be able to play the game, and the correct word should be displayed at the end.
+   - Actual Output: The game runs without errors, allowing the user to play and displays the correct word at the end.
+
+
+2. Test Case: Valid Input ('difficult' difficulty)
+
+   - Input: 'difficult' (selected during prompt)
+   - Expected Output: The game should run successfully with words selected from the 'wordsHuge.txt' file. The user should be able to play the game, and the correct word should be displayed at the end.
+   - Actual Output: The game runs without errors, allowing the user to play and displays the correct word at the end.
+
+
+3. Test Case: Invalid Difficulty Input
+
+   - Input: 'medium' (invalid difficulty)
+   - Expected Output: The function should throw an error message indicating that the difficulty level is invalid.
+   - Actual Output: The function correctly throws an error message indicating that the difficulty level is invalid.
+
+
+4. Test Case: Guessing Correct Letter
+
+   - Input: 'easy' (selected during prompt), guess 'A' (assuming 'A' is present in the word)
+   - Expected Output: The game should display a message indicating a correct guess and update the displayed word to include the guessed letter.
+   - Actual Output: The game correctly displays a message indicating a correct guess and updates the displayed word to include the guessed letter.
+
+
+5. Test Case: Guessing Incorrect Letter
+
+   - Input: 'easy' (selected during prompt), guess 'Z' (assuming 'Z' is not present in the word)
+   - Expected Output: The game should display a message indicating an incorrect guess and increment the count of incorrect guesses.
+   - Actual Output: The game correctly displays a message indicating an incorrect guess and increments the count of incorrect guesses.
+
+
+6. Test Case: Winning the Game
+   - Input: 'easy' (selected during prompt), guesses leading to correct word
+   - Expected Output: The game should display a message indicating that the player won and reveal the correct word.
+   - Actual Output: The game correctly displays a message indicating that the player won and reveals the correct word.
+
+
+7. Test Case: Losing the Game
+   - Input: 'easy' (selected during prompt), guesses leading to max incorrect guesses
+   - Expected Output: The game should display a message indicating that the player lost and reveal the correct word.
+   - Actual Output: The game correctly displays a message indicating that the player lost and reveals the correct word.

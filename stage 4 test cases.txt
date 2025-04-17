@@ -1,0 +1,106 @@
+Test Case 1: Zero incorrect guesses 
+% Test Case
+drawHangmanTesting(0);
+
+% Expected Output
+% _________
+% |        
+% |        
+% |        
+% |        
+% |        
+% |_________
+
+Test case 2: One incorrect guess
+% Test Case
+drawHangmanTesting(1);
+
+% Expected Output
+% _________
+% |     |  
+% |        
+% |        
+% |        
+% |        
+% |_________
+
+Test case 3: Three incorrect guesses
+% Test Case
+drawHangmanTesting(3);
+
+% Expected Output
+% _________
+% |     |  
+% |     O  
+% |     |  
+% |        
+% |        
+% |_________
+
+Test case 4: Six incorrect guesses
+% Test Case
+drawHangmanTesting(6);
+
+% Expected Output
+% _________
+% |     |  
+% |     O  
+% |    /|\ 
+% |    /   
+% |        
+% |_________
+
+
+Test Case 5: seven incorrect guesses (maximum)
+% Test Case
+drawHangmanTesting(7);
+
+% Expected Output
+% _________
+% |     |  
+% |     O  
+% |    /|\ 
+% |    / \ 
+% |        
+% |_________
+
+
+Test case 6: Invalid Input (negative number of incorrect guesses)
+% Test Case
+drawHangmanTesting(-1);
+
+% Expected Output
+% (No output expected as it's an invalid input)
+
+
+Test Case 7: Invalid input (greater than maximum)
+% Test Case
+drawHangmanTesting(8);
+
+% Expected Output
+% (No output expected as it's an invalid input)
+
+
+Test case 8: Floating point input
+% Test Case
+drawHangmanTesting(3.5);
+
+% Expected Output
+% (No output expected as it's an invalid input)
+
+
+Test Case 9: Input of Type Character
+% Test Case
+drawHangmanTesting('a');
+
+% Expected Output
+% (No output expected as it's an invalid input)
+
+
+Test Case 10: Empty Input
+% Test Case
+drawHangmanTesting([]);
+
+% Expected Output
+% (No output expected as it's an invalid input)
+

@@ -1,0 +1,94 @@
+STAGE 0: BASIC GAME LOGIC TEST 
+
+Test case 1: Normal flow
+% Test Case
+playHangmanBasicTest();
+
+% Expected Output
+% The game should start with a prompt to guess a letter. After guessing correctly or incorrectly, the hangman ASCII art should be displayed accordingly until the player wins or loses.
+
+
+Test Case 2: Guessing correctly
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate guessing 'P' correctly
+disp('Guess a letter: P');
+
+% Expected Output
+% The console should display that 'P' is a correct guess and show the updated word with 'P' revealed.
+
+
+Test Case 3: Guessing incorrectly
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate guessing 'Q' incorrectly
+disp('Guess a letter: Q');
+
+% Expected Output
+% The console should display that 'Q' is an incorrect guess and show the hangman with one additional body part drawn.
+
+
+Test Case 4: Guessing Same letter again
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate guessing 'P' again
+disp('Guess a letter: P');
+
+% Expected Output
+% The console should display an error message indicating that 'P' has already been guessed.
+
+
+Test case 5: winning a game
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate guessing all letters correctly ('P', 'Y', 'T', 'H', 'O', 'N')
+disp('Guess a letter: P');
+disp('Guess a letter: Y');
+disp('Guess a letter: T');
+disp('Guess a letter: H');
+disp('Guess a letter: O');
+disp('Guess a letter: N');
+
+% Expected Output
+% The console should display a congratulatory message indicating that the player won the game.
+
+
+Test case 6: Losing the game
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate guessing incorrectly six times ('Q', 'W', 'E', 'R', 'S', 'D')
+disp('Guess a letter: Q');
+disp('Guess a letter: W');
+disp('Guess a letter: E');
+disp('Guess a letter: R');
+disp('Guess a letter: S');
+disp('Guess a letter: D');
+
+% Expected Output
+% The console should display a message indicating that the player lost the game and reveal the correct word.
+
+
+Test case 7: Invalid Input
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate guessing an invalid input ('1')
+disp('Guess a letter: 1');
+
+% Expected Output
+% The console should display an error message indicating that the input is invalid and prompt the player to try again.
+
+
+Test case 8: Closing the game early
+% Test Case
+% Manually set the word to 'PYTHON' for easy verification
+word = 'PYTHON';
+% Simulate closing the game early without completing it
+
+% Expected Output
+% The game should terminate without any further actions or messages.
