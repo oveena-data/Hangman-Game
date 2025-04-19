@@ -14,9 +14,7 @@ This is a simple but fun implementation of the classic **Hangman** game using **
 ### 📌 Features
 
 - Interactive **user input** and output handling in the command window
-- Dynamic **visual representation** of game state via:
-  - ASCII-style game board
-  - Visual tracking of guessed letters and remaining lives
+- Dynamic **visual representation** of game state via: ASCII-style game board and visual tracking of guessed letters and remaining lives
 - Modular code written with **functions** and logical structure
 - Easy-to-read code with **clean formatting** and **meaningful comments**
 
